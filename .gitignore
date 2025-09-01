@@ -1,0 +1,65 @@
+# ---------------- OS / Editor ----------------
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.tmp
+*.temp
+*.log
+*.orig
+
+# IDE / Project files
+.vscode/
+.idea/
+*.iml
+*.tsbuildinfo
+*.eslintcache
+
+# ---------------- Node / Hardhat / Truffle ----------------
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Build outputs
+artifacts/
+artifacts-zk/
+build/
+dist/
+cache/
+coverage/
+coverage.json
+coverage-final.json
+lcov.info
+coverage/lcov-report/
+
+# Type bindings / ABIs (若你手动维护 ABIs 可去掉这一条)
+typechain/
+typechain-types/
+abis/
+
+# Gas / reports
+gas-report.*
+reports/
+
+# ---------------- Foundry ----------------
+out/
+broadcast/
+# Foundry 的缓存目录，有些模板叫 forge-cache/ 或类似
+forge-artifacts/
+forge-cache/
+gas-snapshots/
+snapshots/
+
+# ---------------- Remix ----------------
+.deps/
+remix-sessions/
+
+# ---------------- Env & secrets ----------------
+.env
+.env.*
+!.env.example   # 保留示例环境变量文件
+
+# ---------------- Misc ----------------
+*.lock-wscript
