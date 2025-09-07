@@ -1,0 +1,9 @@
+{
+  "name": "My First NFT #0",
+  "description": "A demo NFT minted on Sepolia.",
+  "image": "ipfs://bafkreihstlqgssgss2y3zdleam25h2y3j7itq3ldcfsvnsjfbrezd3qyvm", 
+  "attributes": [
+    { "trait_type": "Rarity", "value": "Common" }
+  ],
+  "external_url": "https://gateway.pinata.cloud/ipfs/bafkreihstlqgssgss2y3zdleam25h2y3j7itq3ldcfsvnsjfbrezd3qyvm"
+}
